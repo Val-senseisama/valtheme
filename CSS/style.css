@@ -230,7 +230,10 @@ border-bottom: 1px solid #d70900;
     }
     
     .services ul li{
-        margin-right:20vw;
+        margin-right:30vw;
+    }
+     body::-webkit-scrollbar{
+        display: none;
     }
     .info-img {
         margin-bottom:10px;
