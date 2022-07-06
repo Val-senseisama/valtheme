@@ -104,7 +104,6 @@ border-bottom: 1px solid #d70900;
 #info {
     background:#333 url("../images/pexels-jovana-nesic-593655.jpg") no-repeat bottom ;
     color:  #fff;
-    height: 500px;
     border-bottom: solid 1px #d70900;
 }
 
@@ -228,5 +227,7 @@ border-bottom: 1px solid #d70900;
     #showcase content{
         padding: 40px 10px;    
     }
+    .info-img {
+        margin-bottom:10px;
 }
 
