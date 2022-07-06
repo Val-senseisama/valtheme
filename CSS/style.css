@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* img {
+    width: 100%;
+} */
+.container {
+    margin: auto;
+}
+
+/* Common Classes */
+.primary-text {
+    color:#d70900;
+}
+
+.primary-background {
+    background: #56a79a;
+}
+/* header */
+#main-header {
+border-bottom: 1px solid #d70900;
+}
+
+/* navbar */
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li.current, #navbar a:hover {
+    color: #d70900;
+    border-bottom: 3px solid #d70900;
+    padding-bottom: 3px;
+}
+
+/* Showcase */
+#showcase {
+    background: url("../images/pexels-pixabay-38544.jpg") no-repeat center center;
+    border-bottom: 1px solid #d70900;
+    margin-bottom: 30px;
+}
+
+#showcase .row{
+    height: 600px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#showcase p{
+    color: #ccc;
+    margin: 0;
+}
+
+#showcase .showcase-content {
+    background: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+/* Core features */
+#features {
+    margin-bottom: 20px;
+}
+#features h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa {
+    font-size: 60px;
+    color: #d70900;
+    padding-top:20px ;
+}
+
+/* INFO */
+#info {
+    background:#333 url("../images/pexels-jovana-nesic-593655.jpg") no-repeat bottom ;
+    color:  #fff;
+    height: 500px;
+    border-bottom: solid 1px #d70900;
+}
+
+.info-img{
+    margin-top: 60px;
+    height: 350px;
+}
+
+#info h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#info li {
+    line-height: 2em;
+    font-size: 20px;
+}
+
+/* Company */
+#company {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type= "text"] {
+    padding: 7px;
+}
+
+#company button {
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+}
+
+/* Footer */
+#main-footer {
+    background: #d70900;
+    color: #fff;
+}
+
+/* Pages */
+#page {
+    margin-bottom: 40px;
+}
+
+/* Services */
+.services ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.services ul li:nth-child(odd) {
+    background: #333;
+    color: #fff;
+}
+
+.services ul li:nth-child(even) {
+    background: #d70900;
+    color: #fff;
+}
+
+/* CONTACT */
+
+.contact form{
+    background: #333;
+    color: #fff;
+    padding: 30px;
+}
+
+.contact form input[type= "text"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea {
+    width: 50%;
+    height: 100px;
+}
+
+.contact form button {
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #d70900;
+    color: #fff;
+}
+
+.contact form label {
+    text-transform: uppercase;
+}
+
+/* Media Queries */
+@media(max-width: 800px) {
+    #showcase h1{
+        font-size: 30px;
+
+    }
+}
+
+@media(max-width: 500px) {
+    #showcase content{
+        padding: 40px 10px;    
+    }
+}
+
