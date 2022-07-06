@@ -227,6 +227,10 @@ border-bottom: 1px solid #d70900;
     #showcase content{
         padding: 40px 10px;    
     }
+    
+    .services ul li{
+        margin-right:10vw;
+    }
     .info-img {
         margin-bottom:10px;
 }
